@@ -17,13 +17,13 @@ import androidx.annotation.LayoutRes
 data class Topic(
     val name: String,
     val description: String,
-    val totalQuestions: Int
+    val totalQuestions: String
 )
 
 val topics = arrayOf(
-    Topic("Math", "Mathematics topics", 20),
-    Topic("Physics", "Physics topics", 15),
-    Topic("Marvel Super Heroes", "Superhero topics", 10)
+    Topic("Math", "Math questions aiming to build addition and subtraction skills.", "5"),
+    Topic("Physics", "Physics questions about basic metric conversions", "5"),
+    Topic("Marvel Super Heroes", "Superhero trivia and fun facts", "5")
 )
 
 class MainActivity : AppCompatActivity() {

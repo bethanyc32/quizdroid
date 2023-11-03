@@ -9,6 +9,7 @@
         android:id="@+id/topicDescriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
         android:text="Topic Description Placeholder" />
 
@@ -17,6 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/topicDescriptionTextView"
+        android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
         android:text="Total Questions: 0" />
 
@@ -25,6 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/totalQuestionsTextView"
+        android:layout_marginTop="60dp"
         android:layout_centerHorizontal="true"
         android:text="Begin" />
 
