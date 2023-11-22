@@ -3,8 +3,8 @@ package edu.uw.ischool.bchum003.quizdroid
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
-import android.widget.TextView;
-import android.widget.Button;
+import android.widget.TextView
+import android.widget.Button
 
 class TopicOverviewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
